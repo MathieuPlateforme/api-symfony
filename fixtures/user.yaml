@@ -1,0 +1,7 @@
+App\Entity\User:
+  user{1..10}:
+    email: '<email()>'
+    firstname: '<firstname()>'
+    lastname: '<lastname()>'
+    createdAt: '<DatetimeImmutable(<datetime()>)>'
+    password: '<UserPasswordInterface(aaaa)>'
